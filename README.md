@@ -1,6 +1,6 @@
-Instructions
+# Instructions
 
-cd into project
-npm install
-webpack
-firebase deploy
+## cd into project
+## npm install
+## webpack
+## firebase deploy
