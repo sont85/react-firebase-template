@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-let userRef = firebase.database().ref("users")
+let userRef = firebase.database().ref("users");
 
 
 class HelloWorld extends React.Component {
@@ -12,7 +12,7 @@ class HelloWorld extends React.Component {
 class ClickMe extends React.Component {
   // trigger by onClick, just a test for firebase
   setFirebase() {
-    userRef.set({age: 1});
+    userRef.set({age: 3});
   }
   render() {
     return <h1 onClick={this.setFirebase}>Click Me</h1>
