@@ -9,8 +9,10 @@ Instructions
 1. git clone
 2. cd react-firebase-template
 3. npm install
-4. webpack
-5. firebase serve
+4. npm install -g webpack
+5. npm install -g firebase-tools
+5. webpack --progress --colors --watch
+6. firebase serve
 ```
 Go to localhost:5000 on the browser
 
